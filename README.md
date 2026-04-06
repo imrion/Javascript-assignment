@@ -68,4 +68,3 @@ A web app to save books and authors in a dynamic table. Data is persistent using
 
 ---
 
-## 📁 Folder Structure
