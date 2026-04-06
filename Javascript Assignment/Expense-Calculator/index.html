@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Expense Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Expense Calculator</h2>
+
+        <div class="input-container">
+            <input type="text" id="title" placeholder="Expense title">
+            <input type="number" id="amount" placeholder="Enter amount" step="0.01" min="0">
+            <button id="addBtn">Add Expense</button>
+        </div>
+
+        <ul id="expenseList"></ul>
+
+        <h3>Total: $<span id="total">0</span></h3>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
